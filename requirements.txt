@@ -1,0 +1,16 @@
+torch>=2.1.0
+torchvision>=0.16.0
+tensorboard
+scikit-learn>=1.2.2
+biopython>=1.81
+numpy>=1.22.0
+pandas>=2.0.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+ipython>=8.0.0
+biotite
+esm
+transformers
+h5py
+xgboost

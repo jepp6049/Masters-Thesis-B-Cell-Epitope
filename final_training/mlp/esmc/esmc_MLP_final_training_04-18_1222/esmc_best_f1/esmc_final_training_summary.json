@@ -1,0 +1,39 @@
+{
+    "embedding_type": "esmc",
+    "best_params_source_file": "esmc_mlp_hyperparam_search_results.json",
+    "best_params_source_trial": 12,
+    "metric_used_for_selection": "f1",
+    "loaded_parameters": {
+        "learning_rate": 0.0005221303548682357,
+        "dropout": 0.4571455562958662,
+        "hidden_dims_config": "small",
+        "hidden_dims": [
+            480,
+            240
+        ],
+        "weight_decay": 0.02319185200214334,
+        "activation_fn": "SiLU"
+    },
+    "training_seed": 89,
+    "train_val_h5_path": "esmc_protein_embeddings.h5",
+    "test_h5_path": "esmc_test_protein_embeddings.h5",
+    "final_training_epochs_run": 30,
+    "early_stopping_patience": 20,
+    "best_validation_metric": {
+        "f1": 0.33517132729421034
+    },
+    "best_epoch": 10,
+    "final_model_path": "esmc_MLP_final_training_04-18_1222/esmc_best_f1/esmc_mlp_final_best.pth",
+    "test_set_metrics": {
+        "loss": NaN,
+        "precision": 0.35542168674698793,
+        "recall": 0.5818540433925049,
+        "f1": 0.4412864622288706,
+        "auc_roc": 0.7580803562879739,
+        "auc_pr": 0.40791488574917967,
+        "auc10": 0.5802795704529127
+    },
+    "training_timestamp": "04-18_1222",
+    "total_runtime_seconds": 60.4679000377655,
+    "threshold_used": 0.5
+}

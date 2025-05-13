@@ -1,0 +1,44 @@
+{
+    "embedding_type": "esmc",
+    "best_trial_source_file": "/work/jgg/exp1137-improving-b-cell-antigen-predictions-using-plms/random_search/xgboost/esmc.json",
+    "best_trial_num_from_search": 7,
+    "final_model_path": "xgboost_final_runs/esmc_final_train_20250502_120711_trial_7/esmc_xgb_final_model.json",
+    "final_training_settings": {
+        "random_seed": 1989,
+        "validation_split_ratio": 0.15,
+        "n_estimators_max": 2000,
+        "early_stopping_rounds": 50,
+        "objective": "binary:logistic",
+        "eval_metric": "aucpr",
+        "scale_pos_weight": 6.542376559956592,
+        "best_iteration_found": 1098,
+        "training_duration_seconds": 284.1902689933777
+    },
+    "best_hyperparameters_used": {
+        "alpha": 0.0018315099722845494,
+        "colsample_bylevel": 0.789642038872035,
+        "colsample_bytree": 0.790387412543364,
+        "gamma": 3.3889654297501455,
+        "lambda": 0.248249027030134,
+        "learning_rate": 0.007032911779123844,
+        "max_delta_step": 1,
+        "max_depth": 7,
+        "min_child_weight": 5,
+        "subsample": 0.8977973236767622
+    },
+    "test_set_evaluation": {
+        "auc_pr": 0.3622373831853414,
+        "auc_roc": 0.7340469670566758,
+        "auc10": 0.5627139697734407,
+        "f1": 0.39539347408829173,
+        "precision": 0.3850467289719626,
+        "recall": 0.40631163708086787,
+        "threshold_used": 0.5,
+        "true_neg": 1834,
+        "false_pos": 329,
+        "false_neg": 301,
+        "true_pos": 206,
+        "num_test_samples": 2670,
+        "num_pos_test": 507
+    }
+}

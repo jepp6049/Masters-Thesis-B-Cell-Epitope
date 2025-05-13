@@ -1,0 +1,18 @@
+esm2_protein_embeddings.h5
+│
+└── embeddings_folder/                          # Group for all embeddings
+    ├── 'KlM_1a'/                        # Group for first protein
+    │   ├── embeddings                   # Dataset [seq_len, 1280]
+    │   ├── labels                       # Dataset [seq_len]
+    │   └── attrs:                       # Attributes
+    │       ├── sequence: "MVLSEGEWQ..." # Original sequence
+    │       └── length: 245              # Sequence length
+    │
+    ├── 'Abra_123'/                        # Group for second protein
+    │   ├── embeddings                   # Dataset [seq_len, 1280]
+    │   ├── labels                       # Dataset [seq_len] 
+    │   └── attrs:                       # Attributes
+    │       ├── sequence: "ACDEFGHI..."  # Original sequence
+    │       └── length: 180              # Sequence length
+    │
+    └── ... more proteins

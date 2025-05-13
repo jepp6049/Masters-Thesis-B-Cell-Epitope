@@ -1,0 +1,10 @@
+EDA 
+- hvor mange epitoper per sekvens
+- Hvor mange proteiner har vi
+- Antal af epitoer
+- Antal epitoper pr. sekvens
+
+Diagram med antal af epitoper
+Længe af epitoper vises på farven
+Frekvens for hver aminosyre i hver protein
+- har det betydning for %-del af epitoder i sekvens?

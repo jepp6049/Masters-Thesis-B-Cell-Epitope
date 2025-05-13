@@ -1,0 +1,13 @@
+*h5
+
+# Ignore virtual environment
+venv/
+
+# Ignore all esm2 output folders
+esm2_*_runs_*/
+
+# Ignore all output images
+output.png
+
+# Ignore all xgboost run folders
+xgboost_runs/
