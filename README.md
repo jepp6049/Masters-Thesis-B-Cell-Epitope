@@ -13,17 +13,17 @@ We explore the use of large protein language models for predicting B-cell epitop
 
 ## Repository Structure
 
-| File/Directory | Description |
-|----------------|-------------|
-| `Data/` | <small>FASTA files containing protein sequences and epitope annotations from the BepiPred-3.0 dataset</small> |
-| `random_search_scripts/` | <small>Python scripts for hyperparameter tuning via random search</small> |
-| `random_search/` | <small>Output files and results from hyperparameter optimization experiments</small> |
-| `final_training_scripts/` | <small>Scripts for training models with the optimal hyperparameters</small> |
-| `final_training/` | <small>Trained models, performance metrics, and evaluation results</small> |
-| `analysis.ipynb` | <small>Comprehensive Jupyter notebook for analyzing model performance</small> |
-| `load_and_vis_class.ipynb` | <small>Notebook for data loading, visualization, and result interpretation</small> |
-| `h5 demo visualisering.txt` | <small>Technical documentation for HDF5 database structure</small> |
-| `requirements.txt` | <small>List of required Python packages and dependencies</small> |
+| File/Directory              | Description                                                                 |
+|----------------------------|-----------------------------------------------------------------------------|
+| `Data/`                    | FASTA files containing protein sequences and epitope annotations (BepiPred-3.0) |
+| `random_search_scripts/`   | Python scripts for hyperparameter tuning via random search                  |
+| `random_search/`           | Output files and results from hyperparameter optimization experiments       |
+| `final_training_scripts/`  | Scripts for training models with optimal hyperparameters                    |
+| `final_training/`          | Trained models, performance metrics, and evaluation results                 |
+| `analysis.ipynb`           | Jupyter notebook for model performance analysis                             |
+| `load_and_vis_class.ipynb` | Notebook for data loading, visualization, and result interpretation         |
+| `h5 demo visualisering.txt`| Technical notes on HDF5 database structure                                  |
+| `requirements.txt`         | Python dependencies 
 
 ## Reproducibility
 
