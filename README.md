@@ -15,24 +15,23 @@ We explore the use of large protein language models (PLMs) for predicting B-cell
 
 | File/Directory | Description |
 |----------------|-------------|
-| `Data/` | FASTA files containing protein sequences and epitope annotations from the BepiPred-3.0 dataset |
-| `random_search_scripts/` | Python scripts for hyperparameter tuning via random search |
-| `random_search/` | Output files and results from hyperparameter optimization experiments |
-| `final_training_scripts/` | Scripts for training models with the optimal hyperparameters |
-| `final_training/` | Trained models, performance metrics, and evaluation results |
-| `analysis.ipynb` | Comprehensive Jupyter notebook for analyzing model performance |
-| `load_and_vis_class.ipynb` | Notebook for data loading, visualization, and result interpretation |
-| `h5 demo visualisering.txt` | Technical documentation for HDF5 database structure |
-| `requirements.txt` | List of required Python packages and dependencies |
+| `Data/` | <small>FASTA files containing protein sequences and epitope annotations from the BepiPred-3.0 dataset</small> |
+| `random_search_scripts/` | <small>Python scripts for hyperparameter tuning via random search</small> |
+| `random_search/` | <small>Output files and results from hyperparameter optimization experiments</small> |
+| `final_training_scripts/` | <small>Scripts for training models with the optimal hyperparameters</small> |
+| `final_training/` | <small>Trained models, performance metrics, and evaluation results</small> |
+| `analysis.ipynb` | <small>Comprehensive Jupyter notebook for analyzing model performance</small> |
+| `load_and_vis_class.ipynb` | <small>Notebook for data loading, visualization, and result interpretation</small> |
+| `h5 demo visualisering.txt` | <small>Technical documentation for HDF5 database structure</small> |
+| `requirements.txt` | <small>List of required Python packages and dependencies</small> |
 
 ## Reproducibility
 
 To set up the environment:
-
 ```pip install -r requirements.txt```
 
 All relevant FASTA input files and labels are stored in /Data/.
-You will also need access to the pretrained ESM-2 and ESM-C models (see Meta's GitHub).
+You will also need access to the pretrained ESM-2 and ESM-C models (see Meta's [GitHub](https://github.com/facebookresearch/esm)).
 
 # Acknowledgements
 This project was developed as part of our master's thesis in Business Administration and Data Science at CBS. We thank Evaxion Biotech for their domain guidance and collaboration.
