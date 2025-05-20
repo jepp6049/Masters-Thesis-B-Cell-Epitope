@@ -13,17 +13,15 @@ We explore the use of large protein language models (PLMs) for predicting B-cell
 
 ## Repository Structure
 
-.
-├── Data/ # FASTA input files and label data
-├── final_training/ # Final trained models and logs
-├── final_training_scripts/ # Scripts for final training runs
-├── random_search/ # Model outputs from random search experiments
-├── random_search_scripts/ # Scripts for random hyperparameter searches
-├── analysis.ipynb # Performance analysis and plots
-├── load_and_vis_class.ipynb # Class distribution & embedding visualization
-├── h5 demo visualisering.txt # Notes from embedding visualization tests
-├── requirements.txt # Python dependencies
-└── README.md # You are here
+- **Data/**: Contains FASTA files with protein sequences and epitope annotations from the BepiPred-3.0 benchmark dataset
+- **random_search_scripts/**: Scripts for hyperparameter optimization using random search
+- **random_search/**: Results from the hyperparameter optimization
+- **final_training_scripts/**: Scripts for training models with optimal hyperparameters
+- **final_training/**: Final model outputs and evaluation results
+- **analysis.ipynb**: Jupyter notebook for analyzing model performance
+- **load_and_vis_class.ipynb**: Notebook for loading and visualizing results
+- **h5 demo visualisering.txt**: Documentation for HDF5 data structure
+- **requirements.txt**: Required Python packages
 
 
 ## Reproducibility
