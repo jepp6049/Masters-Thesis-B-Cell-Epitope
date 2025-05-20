@@ -13,23 +13,23 @@ We explore the use of large protein language models (PLMs) for predicting B-cell
 
 ## Repository Structure
 
-- **Data/**: Contains FASTA files with protein sequences and epitope annotations from the BepiPred-3.0 benchmark dataset
-- **random_search_scripts/**: Scripts for hyperparameter optimization using random search
-- **random_search/**: Results from the hyperparameter optimization
-- **final_training_scripts/**: Scripts for training models with optimal hyperparameters
-- **final_training/**: Final model outputs and evaluation results
-- **analysis.ipynb**: Jupyter notebook for analyzing model performance
-- **load_and_vis_class.ipynb**: Notebook for loading and visualizing results
-- **h5 demo visualisering.txt**: Documentation for HDF5 data structure
-- **requirements.txt**: Required Python packages
-
+| File/Directory | Description |
+|----------------|-------------|
+| `Data/` | FASTA files containing protein sequences and epitope annotations from the BepiPred-3.0 dataset |
+| `random_search_scripts/` | Python scripts for hyperparameter tuning via random search |
+| `random_search/` | Output files and results from hyperparameter optimization experiments |
+| `final_training_scripts/` | Scripts for training models with the optimal hyperparameters |
+| `final_training/` | Trained models, performance metrics, and evaluation results |
+| `analysis.ipynb` | Comprehensive Jupyter notebook for analyzing model performance |
+| `load_and_vis_class.ipynb` | Notebook for data loading, visualization, and result interpretation |
+| `h5 demo visualisering.txt` | Technical documentation for HDF5 database structure |
+| `requirements.txt` | List of required Python packages and dependencies |
 
 ## Reproducibility
 
 To set up the environment:
 
-```bash```
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 All relevant FASTA input files and labels are stored in /Data/.
 You will also need access to the pretrained ESM-2 and ESM-C models (see Meta's GitHub).
