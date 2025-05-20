@@ -16,13 +16,13 @@ We explore the use of large protein language models for predicting B-cell epitop
 | File/Directory              | Description                                                                 |
 |----------------------------|-----------------------------------------------------------------------------|
 | `Data/`                    | FASTA files containing protein sequences and epitope annotations (BepiPred-3.0) |
-| `random_search_scripts/`   | Python scripts for hyperparameter tuning via random search                  |
-| `random_search/`           | Output files and results from hyperparameter optimization experiments       |
-| `final_training_scripts/`  | Scripts for training models with optimal hyperparameters                    |
 | `final_training/`          | Trained models, performance metrics, and evaluation results                 |
+| `final_training_scripts/`  | Scripts for training models with optimal hyperparameters                    |
+| `random_search/`           | Output files and results from hyperparameter optimization experiments       |
+| `random_search_scripts/`   | Python scripts for hyperparameter tuning via random search                  |
 | `analysis.ipynb`           | Jupyter notebook for model performance analysis                             |
-| `load_and_vis_class.ipynb` | Notebook for data loading, visualization, and result interpretation         |
-| `h5 demo visualisering.txt`| Technical notes on HDF5 database structure                                  |
+| `h5 demo visualisering.txt`| HDF5 database structure                                                     |
+| `load_and_vis_class.ipynb` | Notebook for data and HDF5 loading and visualization                        |
 | `requirements.txt`         | Python dependencies 
 
 ## Reproducibility
